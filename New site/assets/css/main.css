@@ -1433,40 +1433,41 @@
 		}
 /* Menu */
 	.navigation {
-	position: sticky;
-	top: 20px;
-	z-index: 1;
+	   position: sticky;
+	   top: 20px;
+	   z-index: 1;
 	}
 	
-    ul. navigation {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    
+    ul.navigation{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        font-weight: 500
     }
 
-	li.navigation {
+	.navigation li {
 		float: left;
 	}
 
-li.navigation a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    height: 60px;
-}
+    .navigation li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        height: 60px;
+        font-family: "Segoe UI",Arial,sans-serif
+    }
 
-li.navigation a:hover {
-    background-color: #111;
-}
+      /*.navigation li a:hover {
+        background-color: #111;
+    }*/
 
-.active {
-    background-color: #4CAF50;
-}
+    .active {
+        background-color: #788478;
+    }
 
 
 /* Intro */
