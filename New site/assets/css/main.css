@@ -1436,6 +1436,11 @@
 
 		}
 /* Menu */
+	.navigation {
+	position: sticky;
+	top: 20;
+	}
+	
     ul {
     list-style-type: none;
     margin: 0;
