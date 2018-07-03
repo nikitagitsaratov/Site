@@ -1434,11 +1434,7 @@
 /* Menu */
 	.navigation {
 	   position: sticky;
-<<<<<<< HEAD
 	   top: 15px;
-=======
-	   top: 20px;
->>>>>>> 2b56e541b51a7ce5008fcb8a439d150afed3361f
 	   z-index: 1;
 	}
 	
@@ -1448,11 +1444,7 @@
         padding: 0;
         overflow: hidden;
         background-color: #333;
-<<<<<<< HEAD
         font-weight: 600;
-=======
-        font-weight: 500
->>>>>>> 2b56e541b51a7ce5008fcb8a439d150afed3361f
     }
 
 	.navigation li {
@@ -1468,7 +1460,6 @@
         height: 60px;
         font-family: "Segoe UI",Arial,sans-serif
     }
-<<<<<<< HEAD
     .navigation li span {
         display: block;
         color: white;
@@ -1483,12 +1474,6 @@
         background-color: #f4f4f4;
         
     }
-=======
-
-      /*.navigation li a:hover {
-        background-color: #111;
-    }*/
->>>>>>> 2b56e541b51a7ce5008fcb8a439d150afed3361f
 
     .active {
         background-color: #788478;
